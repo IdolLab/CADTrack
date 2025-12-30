@@ -6,10 +6,9 @@
 > Hao Li, Yuhao Wang, Xiantao Hu, Wenning Hao, Pingping Zhang, Dong Wang, Huchuan Lu
 > AAAI 2026
 
-
-[Models & Raw Results](https://drive.google.com/drive/folders/1k7_S0AAyMFSBAem87AJhLjg8Sq1v5VgN?usp=drive_link)(Google Driver) [Models & Raw Results](https://pan.baidu.com/s/1TR4qnWtXS140pddngcn_-w 
-)(Baidu Driver:9527)
-
+Official implementation of [**CADTrack**](https://arxiv.org/pdf/2511.17967), including [Models & Raw Results](https://pan.baidu.com/s/1TR4qnWtXS140pddngcn_-w 
+)(Baidu Driver:9527) and training&testing codes.
+ 
 ## Installation
 Create and activate a conda environment:
 ```
@@ -89,6 +88,11 @@ bash test.sh
 We refer you to [Evaluation Toolkit](https://chenglongli.cn/Datasets-and-benchmark-code/) for GTOT RGBT210 RGBT234 LasHeR evaluation, 
 and refer you to [VTUAV_Evaluation](https://zhang-pengyu.github.io/DUT-VTUAV/) for VTUAV evaluation.
 
+## **Poster** 📜
+<p align="center">
+    <img src="assets/Poster.png" alt="Poster" style="width:100%;">
+</p>
+
 ## Bixtex
 If you find CADTrack is helpful for your research, please consider citing:
 
@@ -103,5 +107,5 @@ If you find CADTrack is helpful for your research, please consider citing:
 ```
 
 ## Acknowledgment
-- This repo is based on [OSTrack](https://github.com/botaoye/OSTrack) and [ViPT](https://github.com/jiawen-zhu/ViPT) which are excellent works.
+- This repo is based on [STTrack](https://github.com/NJU-PCALab/STTrack) and [IDEA](https://github.com/924973292/IDEA) which are excellent works.
 - We thank for the [PyTracking](https://github.com/visionml/pytracking) library, which helps us to quickly implement our ideas.
