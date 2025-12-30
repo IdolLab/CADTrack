@@ -1,19 +1,19 @@
-# [AAAI2026]CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking
+# 🎯 CADTrack: Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking
 
 ![pipline](assets/motivation.png)
 
 > [CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking](https://arxiv.org/abs/2511.17967)  
 > [Hao Li](https://orcid.org/0009-0009-2668-7908), [Yuhao Wang](https://924973292.github.io/), [Xiantao Hu](https://xiantaohu.github.io/index.html), [Wenning Hao*](https://orcid.org/0000-0002-1526-7889), [Pingping Zhang*](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN), [Dong Wang](https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN), [Huchuan Lu](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN)
-> AAAI 2026
+> **AAAI 2026**
 
-Official implementation of [**CADTrack**](https://arxiv.org/pdf/2511.17967), including [Models & Raw Results](https://pan.baidu.com/s/1TR4qnWtXS140pddngcn_-w 
-)(Baidu Driver:9527) and training&testing codes.
+This repository contains the official implementation of [**CADTrack**](https://arxiv.org/pdf/2511.17967), a novel framework for robust RGB-Thermal (RGBT) object tracking. CADTrack addresses key challenges of modality discrepancies and spatial misalignment via three innovative components: **Mamba-based Feature Interaction (MFI)** for efficient cross-modal interaction, **Contextual Aggregation Module (CAM)** for dynamic multi-layer feature fusion, and **Deformable Alignment Module (DAM)** for spatiotemporal alignment. Included are training/evaluation codes, [pre-trained models], and [raw results].
 
-## News
-- We released the **CADtrack** codebase!
-- Great news! Our paper has been accepted to **AAAI 2026**! 
-- 
-## Contributions
+
+## 🚀 New
+- 🎉 Paper Accepted at AAAI 2026!
+- 📦 Code & Models Released – Full implementation now publicly available.
+  
+## ✨ Key Features & Contributions
 <p align="center">
   <p align="center">
     <img src="assets/pipline.png" alt="Description of the image" style="width:100%;">
@@ -40,7 +40,7 @@ Official implementation of [**CADTrack**](https://arxiv.org/pdf/2511.17967), inc
     Figure 4: Deformable alignment of DAM.
 </p>
 
-## Installation
+## ⚙️ Installation
 Create and activate a conda environment:
 ```
 conda create -n CADTrack python=3.10
@@ -51,10 +51,12 @@ Install the required packages:
 bash install_cadtrack.sh
 ```
 
-## Data Preparation
-[GTOT & RGBT210 & RGBT234 & LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/),[VTUAV](https://zhang-pengyu.github.io/DUT-VTUAV/) Put the datasets in ./data/. It should look like:
+## 📂 Data Preparation
+Download the following datasets and place them under ./data/:
+- [GTOT, RGBT210, RGBT234, LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/)
+- [VTUAV](https://zhang-pengyu.github.io/DUT-VTUAV/)
 ```
-$<PATH_of_STTrack>
+$<PATH_of_CADTrack>
 -- data
     -- GTOT
         |-- BlackCar
@@ -90,7 +92,7 @@ $<PATH_of_STTrack>
         ...
 ```
 
-## Path Setting
+## 🔧 Setup & Configuration
 Run the following command to set paths:
 ```
 cd <PATH_of_CADTrack>
@@ -102,7 +104,7 @@ You can also modify paths by these two files:
 ./lib/test/evaluation/local.py  # paths for testing
 ```
 
-## Training
+## 🏋️ Training
 Dowmload the pretrained [foundation model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) (Baidu Driver:hmaa) 
 and put it under ./pretrained/.
 ```
@@ -110,27 +112,28 @@ bash train.sh
 ```
 You can train models with various modalities and variants by modifying ```train.sh```.
 
-## Testing
-[GTOT & RGBT210 & RGBT234 & LasHeR & VTUAV] \
+## 📊 Evaluation
+### Testing on Benchmark Datasets
 Modify the <DATASET_PATH> and <SAVE_PATH> in```./RGBT_workspace/test_rgbt_mgpus.py```, then run:
 ```
 bash test.sh
 ```
-We refer you to [Evaluation Toolkit](https://chenglongli.cn/Datasets-and-benchmark-code/) for GTOT RGBT210 RGBT234 LasHeR evaluation, 
-and refer you to [VTUAV_Evaluation](https://zhang-pengyu.github.io/DUT-VTUAV/) for VTUAV evaluation.
+### Evaluation Tools
+- GTOT/RGBT210/RGBT234/LasHeR: Use the [Evaluation Toolkit](https://chenglongli.cn/Datasets-and-benchmark-code/)
+- VTUAV: Follow the [VTUAV_Evaluation](https://zhang-pengyu.github.io/DUT-VTUAV/)
 
-## **Poster** 📜
+## 📜 Poster
 <p align="center">
     <img src="assets/Poster.png" alt="Poster" style="width:100%;">
 </p>
 
-## Bixtex
+## 📝 Citation
 If you find CADTrack is helpful for your research, please consider citing:
 
 ```bibtex
-@inproceedings{cadtrack,
+@inproceedings{li2026cadtrack,
   title={CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking},
-  author={Hao Li and Yuhao Wang and Xiantao Hu and Wenning Hao and Pingping Zhang and Dong Wang and Huchuan Lu},
+  author={Li, Hao and Wang, Yuhao and Hu, Xiantao and Hao, Wenning and Zhang, Pingping and Wang, Dong and Lu, Huchuan},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={40},
   year={2026}
