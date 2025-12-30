@@ -1,6 +1,6 @@
 <h1 align="center">🎯 CADTrack: Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking</h1>
 
-![pipline](assets/motivation.jpg)
+![motivation](assets/motivation.jpg)
 
 <div align="center">
   <a href="https://arxiv.org/abs/2511.17967">CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking</a><br>
@@ -25,25 +25,25 @@ This repository contains the official implementation of <a href="https://arxiv.o
 ## ✨ Key Features & Contributions
 <p align="center">
   <p align="center">
-    <img src="assets/pipline.png" alt="Description of the image" style="width:100%;">
+    <img src="assets/pipline.jpg" alt="Description of the image" style="width:100%;">
   <p align="center">
 <p align="center" style="font-size: 18px; color: gray;">
     Figure 1: Overall framework of CADTrack.
 </p>
 <p align="center">
-    <img src="assets/mambabridge.png" alt="RGBNT201 assets" style="width:100%;">
+    <img src="assets/mambabridge.jpg" alt="RGBNT201 assets" style="width:100%;">
 </p>
 <p align="center" style="font-size: 18px; color: gray;">
     Figure 2: Details of MFI.
 </p>
 <p align="center">
-    <img src="assets/moe.png" alt="RGBNT201 assets" style="width:100%;">
+    <img src="assets/moe.jpg" alt="RGBNT201 assets" style="width:100%;">
 </p>
 <p align="center" style="font-size: 18px; color: gray;">
     Figure 3: The structure of CAM.
 </p>
 <p align="center">
-    <img src="assets/offset.png" alt="RGBNT201 assets" style="width:100%;">
+    <img src="assets/offset.jpg" alt="RGBNT201 assets" style="width:100%;">
 </p>
 <p align="center" style="font-size: 18px; color: gray;">
     Figure 4: Deformable alignment of DAM.
@@ -114,7 +114,7 @@ You can also modify paths by these two files:
 ```
 
 ## 🏋️ Training
-Dowmload the pretrained [foundation model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) and put it under ./pretrained/.
+Download the pretrained [foundation model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) and put it under ./pretrained/.
 ```
 bash train.sh
 ```
@@ -133,7 +133,7 @@ bash test.sh
 
 ## 📜 Poster
 <p align="center">
-    <img src="assets/Poster.png" alt="Poster" style="width:100%;">
+    <img src="assets/Poster.jpg" alt="Poster" style="width:100%;">
 </p>
 
 ## 📝 Citation
