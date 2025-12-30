@@ -150,6 +150,5 @@ If you find CADTrack is helpful for your research, please consider citing:
 ```
 
 ## 🙏 Acknowledgments
-This repo is based on [STTrack](https://github.com/NJU-PCALab/STTrack) and [IDEA](https://github.com/924973292/IDEA) which are excellent works.
----
-<p align="center"> <b>Star ⭐ this repo if you like our work!</b> </p>
+-  This repo is based on [STTrack](https://github.com/NJU-PCALab/STTrack) and [IDEA](https://github.com/924973292/IDEA) which are excellent works.
+-  <p align="center"> <b>Star ⭐ this repo if you like our work!</b> </p>
