@@ -2,9 +2,17 @@
 
 ![pipline](assets/motivation.png)
 
-> [CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking](https://arxiv.org/abs/2511.17967)  
-> [Hao Li](https://orcid.org/0009-0009-2668-7908), [Yuhao Wang](https://924973292.github.io/), [Xiantao Hu](https://xiantaohu.github.io/index.html), [Wenning Hao*](https://orcid.org/0000-0002-1526-7889), [Pingping Zhang*](https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN), [Dong Wang](https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN), [Huchuan Lu](https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN)
-> [**AAAI 2026**](https://arxiv.org/pdf/2511.17967)
+<div align="center">
+  <a href="https://arxiv.org/abs/2511.17967">CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking</a><br>
+  <a href="https://orcid.org/0009-0009-2668-7908">Hao Li</a>, 
+  <a href="https://924973292.github.io/">Yuhao Wang</a>, 
+  <a href="https://xiantaohu.github.io/index.html">Xiantao Hu</a>, 
+  <a href="https://orcid.org/0000-0002-1526-7889">Wenning Hao*</a>, 
+  <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang*</a>, 
+  <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
+  <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a><br>
+  <a href="https://arxiv.org/pdf/2511.17967"><strong>AAAI 2026</strong></a>
+</div>
 
 This repository contains the official implementation of [**CADTrack**](https://arxiv.org/pdf/2511.17967), a novel framework for robust RGB-Thermal (RGBT) object tracking. CADTrack addresses key challenges of modality discrepancies and spatial misalignment via three innovative components: **Mamba-based Feature Interaction (MFI)** for efficient cross-modal interaction, **Contextual Aggregation Module (CAM)** for dynamic multi-layer feature fusion, and **Deformable Alignment Module (DAM)** for spatiotemporal alignment. Included are training/evaluation [codes](https://github.com/IdolLab/CADTrack), [pre-trained models](https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq), and [raw results](https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq).
 
