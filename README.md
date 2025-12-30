@@ -14,7 +14,9 @@
   <a href="https://arxiv.org/pdf/2511.17967"><strong>AAAI 2026</strong></a>
 </div>
 
-This repository contains the official implementation of [**CADTrack**](https://arxiv.org/pdf/2511.17967), a novel framework for robust RGB-Thermal (RGBT) object tracking. CADTrack addresses key challenges of modality discrepancies and spatial misalignment via three innovative components: **Mamba-based Feature Interaction (MFI)** for efficient cross-modal interaction, **Contextual Aggregation Module (CAM)** for dynamic multi-layer feature fusion, and **Deformable Alignment Module (DAM)** for spatiotemporal alignment. Included are training/evaluation [codes](https://github.com/IdolLab/CADTrack), [pre-trained models](https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq), and [raw results](https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq).
+<p align="justify">
+This repository contains the official implementation of <a href="https://arxiv.org/pdf/2511.17967"><strong>CADTrack</strong></a>, a novel framework for robust RGB-Thermal (RGBT) object tracking. CADTrack addresses key challenges of modality discrepancies and spatial misalignment via three innovative components: <strong>Mamba-based Feature Interaction (MFI)</strong> for efficient cross-modal interaction, <strong>Contextual Aggregation Module (CAM)</strong> for dynamic multi-layer feature fusion, and <strong>Deformable Alignment Module (DAM)</strong> for spatiotemporal alignment. Included are training/evaluation <a href="https://github.com/IdolLab/CADTrack">codes</a>, <a href="https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq">pre-trained models</a>, and <a href="https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq">raw results</a>.
+</p>
 
 ## 🚀 New
 - 🎉 Paper Accepted at AAAI 2026!
