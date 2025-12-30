@@ -114,8 +114,7 @@ You can also modify paths by these two files:
 ```
 
 ## 🏋️ Training
-Dowmload the pretrained [foundation model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) (Baidu Driver:hmaa) 
-and put it under ./pretrained/.
+Dowmload the pretrained [foundation model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) and put it under ./pretrained/.
 ```
 bash train.sh
 ```
@@ -127,6 +126,7 @@ Modify the <DATASET_PATH> and <SAVE_PATH> in```./RGBT_workspace/test_rgbt_mgpus.
 ```
 bash test.sh
 ```
+
 ### Evaluation Tools
 - GTOT/RGBT210/RGBT234/LasHeR: Use the [Evaluation Toolkit](https://chenglongli.cn/Datasets-and-benchmark-code/)
 - VTUAV: Follow the [VTUAV_Evaluation](https://zhang-pengyu.github.io/DUT-VTUAV/)
@@ -150,5 +150,4 @@ If you find CADTrack is helpful for your research, please consider citing:
 ```
 
 ## 🙏 Acknowledgments
-- This repo is based on [STTrack](https://github.com/NJU-PCALab/STTrack) and [IDEA](https://github.com/924973292/IDEA) which are excellent works.
-- We thank for the [PyTracking](https://github.com/visionml/pytracking) library, which helps us to quickly implement our ideas.
+This repo is based on [STTrack](https://github.com/NJU-PCALab/STTrack) and [IDEA](https://github.com/924973292/IDEA) which are excellent works.
