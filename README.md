@@ -1,4 +1,4 @@
-# 🎯 CADTrack: Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking
+<h1 align="center">🎯 CADTrack: Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking</h1>
 
 ![pipline](assets/motivation.png)
 
