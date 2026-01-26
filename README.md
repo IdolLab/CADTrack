@@ -52,9 +52,9 @@ This repository contains the official implementation of <a href="https://arxiv.o
 ## ⚙️ Installation
 Create and activate a conda environment:
 ```
+cd path/to/CADTrack
 conda create -n CADTrack python=3.10
 conda activate CADTrack
-cd path/to/CADTrack
 ```
 Download [mamba_install](https://pan.baidu.com/s/1Uy1cICsuEKUgv5eMODn5Aw?pwd=a4ja) and install the required packages:
 ```
