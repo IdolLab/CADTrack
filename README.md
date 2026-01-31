@@ -115,7 +115,7 @@ You can also modify paths by these two files:
 ```
 
 ## 🏋️ Training
-Download the pretrained [foundation model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) and put it under ./pretrained/.
+Download the [pretrained model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) and put it under ./pretrained/.
 ```
 bash train.sh
 ```
