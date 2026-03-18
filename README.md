@@ -11,7 +11,7 @@
   <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang*</a>, 
   <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
   <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a><br>
-  <a href="[https://arxiv.org/pdf/2511.17967](https://ojs.aaai.org/index.php/AAAI/article/view/37535)"><strong>AAAI 2026</strong></a>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37535"><strong>AAAI 2026</strong></a>
 </div>
 
 <p align="justify">
