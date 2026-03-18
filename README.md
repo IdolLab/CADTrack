@@ -11,7 +11,7 @@
   <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang*</a>, 
   <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
   <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a><br>
-  <a href="https://arxiv.org/pdf/2511.17967"><strong>AAAI 2026</strong></a>
+  <a href="[https://arxiv.org/pdf/2511.17967](https://ojs.aaai.org/index.php/AAAI/article/view/37535)"><strong>AAAI 2026</strong></a>
 </div>
 
 <p align="justify">
@@ -146,6 +146,8 @@ If you find CADTrack is helpful for your research, please consider citing:
   author={Li, Hao and Wang, Yuhao and Hu, Xiantao and Hao, Wenning and Zhang, Pingping and Wang, Dong and Lu, Huchuan},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={40},
+  number={8},
+  pages={6109--6117},
   year={2026}
 }
 ```
