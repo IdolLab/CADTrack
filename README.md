@@ -144,7 +144,7 @@ If you find CADTrack is helpful for your research, please consider citing:
 @inproceedings{li2026cadtrack,
   title={CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking},
   author={Li, Hao and Wang, Yuhao and Hu, Xiantao and Hao, Wenning and Zhang, Pingping and Wang, Dong and Lu, Huchuan},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence(AAAI)},
   volume={40},
   number={8},
   pages={6109--6117},
